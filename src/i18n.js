@@ -14,7 +14,7 @@ i18n.use(Backend).use(Languagedetector).use(initReactI18next).init({
     backend: {
         loadPath: '/assets/i18n/{{ns}}/{{lng}}.json'
     },
-    ns: ['translations']
+    ns: 'translations'
 });
 
 export default i18n;

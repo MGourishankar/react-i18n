@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <LangSelector />
-        Hello, {t?.('TITLE')}
+        Hello, {t?.('TITLE', { ns: 'translations'})} 
       </header>
     </div>
 
